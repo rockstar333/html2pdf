@@ -16,7 +16,7 @@ Task was implemented with help of the following technologies:
 - Pdf file will be created in the folder where launcher is located.
 
 <strong>Difficulties of implementation:</strong><br>
-During the implementation of this task I faced several difficulties. The main flow of my solution is the absence of some background-color styles. It is caused by incomplete PhantomsJS Pdf render algorithm and Bootstrap CSS files (Bootstrap is used for AdminLTE CSS styling). 
+During the implementation of this task I faced several difficulties. The main limitation of my solution is the absence of some background-color styles. It is caused by incomplete PhantomsJS Pdf render algorithm and Bootstrap CSS files (Bootstrap is used for AdminLTE CSS styling). 
 
 PhantomJS strives to render page in @media print mode and there is no open instruments to revise its behavoiur. I have tried to revise links and to make them refer to  my own fixed bootstrap CSS files, but this solution is failed due to the undefined security issues (operation was canceled without reasonable explanation). 
 
